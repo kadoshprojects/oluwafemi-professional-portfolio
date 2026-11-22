@@ -1,0 +1,8 @@
+document.querySelectorAll(".filter").forEach(btn=>btn.addEventListener("click",()=>{document.querySelectorAll(".filter").forEach(b=>b.classList.remove("active"));btn.classList.add("active");const f=btn.dataset.filter;document.querySelectorAll(".project-card").forEach(card=>{card.style.display=(f==="all"||card.dataset.category.split(" ").includes(f))?"flex":"none"})}));
+document.querySelector(".menu").addEventListener("click",()=>document.querySelector(".topbar nav").classList.toggle("open"));
+document.getElementById("year").textContent=new Date().getFullYear();
+if(window.Chart){
+const common={responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:"#c2ced9",font:{family:"DM Sans",size:10}}}}};
+new Chart(document.getElementById("mixChart"),{type:"doughnut",data:{labels:["Healthcare","Construction"],datasets:[{data:[3,4],backgroundColor:["#e5ad50","#4fb6a7"],borderWidth:0,hoverOffset:5}]},options:{...common,cutout:"68%",plugins:{...common.plugins,legend:{position:"bottom",labels:{color:"#c2ced9",padding:20,font:{family:"DM Sans",size:11}}}}}});
+new Chart(document.getElementById("lifecycleChart"),{type:"bar",data:{labels:["Initiate","Plan","Execute","Monitor","Close"],datasets:[{label:"Lifecycle stages",data:[1,1,1,1,1],backgroundColor:["#e5ad50","#d6a65b","#4fb6a7","#6d9db5","#8a9bb0"],borderRadius:4,barThickness:22}]},options:{...common,indexAxis:"y",scales:{x:{display:false,grid:{display:false},ticks:{display:false}},y:{grid:{display:false},ticks:{color:"#d4dde6",font:{family:"DM Sans",size:10}}}},plugins:{legend:{display:false},tooltip:{enabled:false}}}});
+}
