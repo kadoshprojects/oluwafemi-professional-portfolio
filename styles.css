@@ -351,6 +351,9 @@ footer a{color:var(--forest-mid);font-weight:700}
   .dashboard-grid{grid-template-columns:1fr}
   .chart-card.wide{grid-row:auto}
 }
+.water-section > .section-head .eyebrow {
+  color: var(--forest-mid);
+}
 
 @media(max-width:640px){
   .topbar{height:68px}
