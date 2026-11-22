@@ -208,4 +208,8 @@ footer a{color:var(--forest-mid);font-weight:700}
   .evidence-grid{grid-template-columns:1fr}
   .contact-box{align-items:flex-start;flex-direction:column}
   footer{flex-wrap:wrap;padding:22px 6vw}
+  .dark-section h2 {
+  color: #ffffff;
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.25);
+}
 }
