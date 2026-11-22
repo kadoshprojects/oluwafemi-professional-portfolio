@@ -1,3 +1,0 @@
-ID,Type,Description,Probability (1-5),Impact (1-5),Owner role,Response / action,Due date,Status
-R-001,Risk,Example only: delayed delivery of a critical material,3,4,Procurement lead,Confirm supplier lead time and identify an approved alternative,,Open
-I-001,Issue,Example only: unresolved interface between two work packages,2,3,Project coordinator,Arrange interface review and record decision,,Open
