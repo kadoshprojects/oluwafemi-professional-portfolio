@@ -352,7 +352,8 @@ footer a{color:var(--forest-mid);font-weight:700}
   .chart-card.wide{grid-row:auto}
 }
 .water-section > .section-head .eyebrow {
-  color: var(--forest-mid);
+  color: #0b2f23;
+}
 }
 
 @media(max-width:640px){
