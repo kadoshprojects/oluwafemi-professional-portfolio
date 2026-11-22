@@ -19,8 +19,11 @@ document.getElementById("year").textContent = new Date().getFullYear();
 if (window.Chart) {
   const legendOpts = {
     labels: {
-      color: "#d8e6df",
-      font: { family: "DM Sans", size: 11 }
+      color: "#edf7f2",
+      font: { family: "DM Sans", size: 11, weight: "700" },
+      usePointStyle: true,
+      pointStyle: "circle",
+      padding: 14
     }
   };
 
@@ -30,20 +33,32 @@ if (window.Chart) {
       labels: ["Healthcare (3)", "Education Workflows (2)", "Construction Controls (4)"],
       datasets: [{
         data: [3, 2, 4],
-        backgroundColor: ["#34d399", "#10b981", "#6ee7b7"],
-        borderColor: "#133b2c",
-        borderWidth: 2,
-        hoverOffset: 6
+        backgroundColor: ["#34d399", "#38bdf8", "#fbbf24"],
+        borderColor: "#0f2e22",
+        borderWidth: 3,
+        hoverBorderColor: "#ffffff",
+        hoverBorderWidth: 4,
+        hoverOffset: 8
       }]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      cutout: "66%",
+      cutout: "62%",
       plugins: {
         legend: {
           position: "bottom",
           ...legendOpts
+        },
+        tooltip: {
+          backgroundColor: "#071b13",
+          titleColor: "#ffffff",
+          bodyColor: "#dcebe4",
+          borderColor: "#86efac",
+          borderWidth: 1,
+          padding: 12,
+          titleFont: { family: "DM Sans", size: 12, weight: "700" },
+          bodyFont: { family: "DM Sans", size: 12 }
         }
       }
     }
@@ -56,7 +71,9 @@ if (window.Chart) {
       datasets: [{
         label: "Lifecycle stages",
         data: [1, 1, 1, 1, 1],
-        backgroundColor: ["#34d399", "#2eb886", "#279d72", "#20825e", "#19674a"],
+        backgroundColor: ["#34d399", "#2dd4bf", "#38bdf8", "#60a5fa", "#fbbf24"],
+        borderColor: ["#86efac", "#5eead4", "#7dd3fc", "#93c5fd", "#fde68a"],
+        borderWidth: 1,
         borderRadius: 5,
         barThickness: 20
       }]
@@ -67,9 +84,9 @@ if (window.Chart) {
       indexAxis: "y",
       scales: {
         x: { display: false, grid: { display: false }, ticks: { display: false } },
-        y: { grid: { display: false }, ticks: { color: "#e2efe8", font: { family: "DM Sans", size: 11 } } }
+        y: { grid: { display: false }, ticks: { color: "#f1f7f4", font: { family: "DM Sans", size: 12, weight: "700" } } }
       },
-      plugins: { legend: { display: false }, tooltip: { enabled: false } }
+      plugins: { legend: { display: false }, tooltip: { enabled: true } }
     }
   });
 }
