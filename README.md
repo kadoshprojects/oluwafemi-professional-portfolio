@@ -19,3 +19,4 @@ Open `index.html` in a browser or serve the directory with a local static server
 - **Location:** Southwest, Calgary, Alberta
 - **Email:** adejumobi.oluwafemi007@gmail.com
 - **Phone:** 587-581-8693
+
