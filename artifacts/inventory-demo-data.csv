@@ -1,0 +1,5 @@
+Item_ID,Item_Category,Opening_Qty,Receipts_Qty,Issues_Qty,Closing_Qty,Reorder_Level,Unit
+DEMO-001,Medical consumable A,120,40,65,95,30,units
+DEMO-002,General supply B,80,0,58,22,25,units
+DEMO-003,Equipment accessory C,45,20,10,55,15,units
+DEMO-004,PPE supply D,200,60,175,85,50,units

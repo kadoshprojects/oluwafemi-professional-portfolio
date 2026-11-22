@@ -1,0 +1,82 @@
+{
+  "disclosure": "Experience summaries are owner-described to illustrate project environments, control mechanisms, and delivery outcomes without disclosing confidential or unverified metrics.",
+  "owner": {
+    "name": "Oluwafemi Adejumobi",
+    "credential": "PMP",
+    "location": "Southwest, Calgary, Alberta",
+    "email": "adejumobi.oluwafemi007@gmail.com",
+    "phone": "587-581-8693"
+  },
+  "current_role": {
+    "title": "Junior Water Operator",
+    "organisation": "City of Calgary",
+    "department": "Water Operations (DWD)",
+    "location": "Calgary, Alberta",
+    "focus": "Public-safe operational learning, safety discipline, and municipal water service reliability"
+  },
+  "experience_areas": [
+    {
+      "id": "01",
+      "name": "Public-health oxygen study — Nigeria",
+      "role": "Project Control Analyst",
+      "type": "healthcare",
+      "outcome": "Standardized deliverable tracking, milestone reporting, and RAID issue escalation across field and clinical stakeholders to maintain schedule visibility and structured reporting."
+    },
+    {
+      "id": "02",
+      "name": "Oncology hospital management digitalisation — Abeokuta",
+      "role": "Project Management",
+      "type": "healthcare digital",
+      "outcome": "Translated clinical and operational needs into as-is/to-be workflows, requirements traceability, and UAT readiness plans to support smoother system cutover."
+    },
+    {
+      "id": "03",
+      "name": "Hospital inventory management system — Ogun State",
+      "role": "Project Manager",
+      "type": "healthcare digital",
+      "outcome": "Structured stock-movement workflows, reorder-threshold logic, and acceptance checklists to improve inventory visibility and operational readiness."
+    },
+    {
+      "id": "04",
+      "name": "Gloryville College — Workflow digitalisation",
+      "role": "Workflow & Project Delivery Lead",
+      "type": "digital education",
+      "outcome": "Mapped manual academic and administrative handoffs into structured digital workflows with clear approval steps, role accountability, and staff adoption readiness."
+    },
+    {
+      "id": "05",
+      "name": "Gloryville Elementary — Workflow digitalisation",
+      "role": "Workflow & Project Delivery Lead",
+      "type": "digital education",
+      "outcome": "Streamlined school operational and record workflows into practical, repeatable digital steps tailored for everyday staff usability and fewer handoff bottlenecks."
+    },
+    {
+      "id": "06",
+      "name": "Basement development",
+      "role": "Construction Project Controls & Coordination",
+      "type": "construction",
+      "outcome": "Coordinated excavation, structural sequencing, inspection dependencies, and progress tracking to keep site work aligned with schedule and quality expectations."
+    },
+    {
+      "id": "07",
+      "name": "Residential buildings",
+      "role": "Construction Project Controls & Coordination",
+      "type": "construction",
+      "outcome": "Aligned work packages, trade scheduling, material/labour coordination, and quality checks across residential build phases."
+    },
+    {
+      "id": "08",
+      "name": "Commercial buildings",
+      "role": "Construction Project Controls & Coordination",
+      "type": "construction",
+      "outcome": "Structured work-package handoffs, trade interface coordination, and progress monitoring to support controlled commercial delivery."
+    },
+    {
+      "id": "09",
+      "name": "Building renovations",
+      "role": "Construction Project Controls & Coordination",
+      "type": "construction",
+      "outcome": "Managed scope boundaries, phased sequencing, site constraints, and completion/closeout checks across occupied or active renovation work."
+    }
+  ]
+}

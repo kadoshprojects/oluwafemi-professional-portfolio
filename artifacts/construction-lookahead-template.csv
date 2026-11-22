@@ -1,0 +1,5 @@
+WBS,Work package,Predecessor / constraint,Planned start,Planned finish,Responsible role,Status,Evidence / notes
+1.1,Site preparation,Permits and site access confirmed,,,Site supervisor,Not started,Template row — replace with approved project information
+1.2,Excavation / basement works,Survey and utility clearance,,,Construction lead,Not started,Template row — replace with approved project information
+1.3,Foundation works,Inspection release and approved drawings,,,Site engineer,Not started,Template row — replace with approved project information
+1.4,MEP first fix,Structure and access released,,,MEP coordinator,Not started,Template row — replace with approved project information

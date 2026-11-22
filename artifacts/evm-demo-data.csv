@@ -1,0 +1,5 @@
+Period,PV,EV,AC,Currency,Disclosure
+Period 1,10000,9000,9500,CAD,Synthetic training values
+Period 2,22000,20500,21800,CAD,Synthetic training values
+Period 3,35000,33000,36000,CAD,Synthetic training values
+Period 4,48000,46500,49000,CAD,Synthetic training values
